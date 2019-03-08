@@ -11,4 +11,5 @@ microCalcification
 spiculatedMass
 109x109 pixels image, 32-bit Real, Little-endian byte order
 
-folder path; number of ROIs each category; 
+four breast categories x two lesion types
+folder path lesion type/signal absent/present (SA/SP); number of ROIs each category; 
