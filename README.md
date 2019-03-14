@@ -20,12 +20,9 @@ Data organization
 -----------------
 The VICTRE ROI patches for digital mammography for the four breast density categories (extremely dense, heterogenously dense, scattered density, and fatty) are available in the four folders. Each folder contains gzipped files with ROI patches for signal absent and signal present phantoms. Two types of signals were inserted - microcalcification cluster and spiculated mass. 
 
-*Extracting the gzip files from command line:*
+*Extracting the gzip files from command line:* $tar -xvzf gz_file_name
 
-tar -xvzf gz_file_name
-
-*Viewing the ROI patches*
-The patches can be opened in ImageJ with the following parameters:
+*Viewing the ROI patches:* The patches can be opened in ImageJ with the following parameters:
 
 - Microcalcification cluster signal present and signal - 65x65 pixels image, 32-bit Real, Little-endian byte order.
 - Spiculated mass signal present and signal absent - 109x109 pixels image, 32-bit Real, Little-endian byte order.
