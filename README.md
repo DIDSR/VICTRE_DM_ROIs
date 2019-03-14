@@ -27,4 +27,4 @@ The VICTRE ROI patches for digital mammography for the four breast density categ
 - Microcalcification cluster signal present and signal - 65x65 pixels image, 32-bit Real, Little-endian byte order.
 - Spiculated mass signal present and signal absent - 109x109 pixels image, 32-bit Real, Little-endian byte order.
 
-number of ROIs each category; 
+There are around 2800 ROIs each for extremely dense and fatty breast categories, and over 11200 ROIs for heterogeneously dense and scattered density types.
