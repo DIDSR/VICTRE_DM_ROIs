@@ -28,3 +28,8 @@ Gzip files can be extracted using WinZip on Windows or from the command line in 
 - Spiculated mass signal present and signal absent - 109x109 pixels image, 32-bit Real, Little-endian byte order.
 
 There are approximately 2800 ROIs each for extremely dense and fatty breast categories, and over 11200 ROIs for heterogeneously dense and scattered density types.
+
+File naming
+-----------
+Individual ROI patches are named as roiMAMMO_X_Y_Z.raw, where X denotes signal absent (SA) or signal present (SP), Y is the ROI index of phantom, Z is the seed number of the phantom. Each seed denotes a different phantom, and files with same Z with different Y are different ROI patches from the same phantom.
+
