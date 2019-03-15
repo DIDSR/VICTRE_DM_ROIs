@@ -6,7 +6,7 @@ Clinical trials are expensive and delay the regulatory evaluation and early pati
 
 The last component of the VICTRE pipeline is Regions of Interest (ROIs) extraction. **On this page we make available the VICTRE dataset' ROI patches for digital mammography.** The ROI patches for digital breast tomosynthesis are available at https://github.com/DIDSR/VICTRE_DBT_ROIs.
 
-**Citation:** ''Evaluation of Digital Breast Tomosynthesis as Replacemnet of Full-Field Digital Mammography Using an In Silico Imaging Trial.'' Aldo Badano, Ph. D., Christian G. Graff, Ph. D., Andreu Badal, Ph. D., Diksha Sharma, M. Sc., Rongping Zeng, Ph. D., Frank W. Samuelson, Ph. D., Stephen Glick, Ph. D., and Kyle J. Myers, Ph. D.  *JAMA Network Open. 2018;1(7):e185474; doi:10.1001/jamanetworkopen.2018.5474*. 
+**Citation:** ''Evaluation of Digital Breast Tomosynthesis as Replacemnet of Full-Field Digital Mammography Using an In Silico Imaging Trial.'' Aldo Badano, Ph. D., Christian G. Graff, Ph. D., Andreu Badal, Ph. D., Diksha Sharma, M. Sc., Rongping Zeng, Ph. D., Frank W. Samuelson, Ph. D., Stephen Glick, Ph. D., and Kyle J. Myers, Ph. D.  *JAMA Network Open. 2018;1(7):e185474; [doi:10.1001/jamanetworkopen.2018.5474]( https://doi.org/10.1001/jamanetworkopen.2018.5474)*. 
 
 *VICTRE team: Aldo Badano, Ph. D., Christian G. Graff, Ph. D., Andreu Badal, Ph. D., Diksha Sharma, M. Sc., Rongping Zeng, Ph. D., Frank W. Samuelson, Ph. D., Stephen Glick, Ph. D., and Kyle J. Myers, Ph. D.*
 
