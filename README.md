@@ -2,7 +2,7 @@
 ![](https://user-images.githubusercontent.com/5750606/41682198-0b250648-74a5-11e8-9578-f93602efa5ab.png)\
 ***Virtual Imaging Clinical Trial for Regulatory Evaluation***
 
-Clinical trials are expensive and delay the regulatory evaluation and early patient access to novel devices. In order to demonstrate an alternative approach, a recent effort at the Division of Imaging, Diagnostics, and Software Reliability at the U.S. Food and Drug Administration (known as the VICTRE project) demonstrated the replication of one such clinical trial using completely in-silico tools and compared results in terms of imaging modality performance between the human trial and the computational trial. The VICTRE trial consisted in imaging around 3000 digital breast models in digital mammography and digital breast tomosynthesis system models. VICTRE pipeline tools and details are available at https://github.com/DIDSR/VICTRE/. 
+Clinical trials are expensive and delay the regulatory evaluation and early patient access to novel devices. In order to demonstrate an alternative approach, a recent effort at the Division of Imaging, Diagnostics, and Software Reliability at the U.S. Food and Drug Administration (known as the VICTRE project) demonstrated the replication of one such clinical trial using completely in-silico tools and compared results in terms of imaging modality performance between the human trial and the computational trial. The VICTRE trial involved imaging approximately 3000 digital breast models in digital mammography and digital breast tomosynthesis system models. VICTRE pipeline tools and details are available at https://github.com/DIDSR/VICTRE/. 
 
 The last component of the VICTRE pipeline is Regions of Interest (ROIs) extraction. **On this page we make available the VICTRE dataset' ROI patches for digital mammography.** The ROI patches for digital breast tomosynthesis are available at https://github.com/DIDSR/VICTRE_DBT_ROIs.
 
@@ -20,11 +20,11 @@ Data organization
 -----------------
 The VICTRE ROI patches for digital mammography for the four breast density categories (extremely dense, heterogenously dense, scattered density, and fatty) are available in the four folders. Each folder contains gzipped files with ROI patches for signal absent and signal present phantoms. Two types of signals were inserted - microcalcification cluster and spiculated mass. 
 
-*Extracting the gzip files from command line:* $tar -xvzf gzip-filename
+Gzip files can be extracted using WinZip on Windows or from the command line in Linux with $tar -xvzf gzip-filename.
 
-*Viewing the ROI patches:* The patches can be opened in ImageJ with the following parameters:
+*Viewing the ROI patches:* The patches can be opened in [ImageJ](https://imagej.nih.gov/ij/) with the following parameters:
 
 - Microcalcification cluster signal present and signal absent - 65x65 pixels image, 32-bit Real, Little-endian byte order.
 - Spiculated mass signal present and signal absent - 109x109 pixels image, 32-bit Real, Little-endian byte order.
 
-There are around 2800 ROIs each for extremely dense and fatty breast categories, and over 11200 ROIs for heterogeneously dense and scattered density types.
+There are approximately 2800 ROIs each for extremely dense and fatty breast categories, and over 11200 ROIs for heterogeneously dense and scattered density types.
