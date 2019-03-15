@@ -31,5 +31,5 @@ There are approximately 2800 ROIs each for extremely dense and fatty breast cate
 
 File naming
 -----------
-Individual ROI patches are named as roiMAMMO_X_Y_Z.raw, where X denotes signal absent (SA) or signal present (SP), Y is the ROI index of phantom, Z is the seed number of the phantom. Each seed denotes a different phantom, and files with same Z with different Y are different ROI patches from the same phantom.
+Individual ROI patches are named as roiMAMMO_X_Y_Z.raw, where X denotes signal absent (SA) or signal present (SP), Y is the ROI index of phantom, Z is the seed number of the phantom. Each seed denotes a different phantom, and files containing same seed are different ROI patches from the same phantom.
 
