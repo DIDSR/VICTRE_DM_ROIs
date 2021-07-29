@@ -18,7 +18,7 @@ parties of the Software, its source code, documentation or compiled executables,
 
 Data organization
 -----------------
-The VICTRE ROI patches for digital mammography for the four breast density categories (extremely dense, heterogenously dense, scattered density, and fatty) are available in the four folders. Each folder contains gzipped files with ROI patches for signal absent and signal present phantoms. Two types of signals were inserted - microcalcification cluster and spiculated mass. 
+The VICTRE ROI patches and locations for digital mammography for the four breast density categories (extremely dense, heterogenously dense, scattered density, and fatty) are available in the four folders. Each folder contains gzipped files with ROI patches for signal absent and signal present phantoms. Two types of signals were inserted - microcalcification cluster and spiculated mass. 
 
 Gzip files can be extracted using WinZip on Windows or from the command line in Linux with $tar -xvzf gzip-filename.
 
@@ -32,4 +32,6 @@ There are approximately 2800 ROIs each for extremely dense and fatty breast cate
 File naming
 -----------
 Individual ROI patches are named as roiMAMMO_X_Y_Z.raw, where X denotes signal absent (SA) or signal present (SP), Y is the ROI index of phantom, Z is the seed number of the phantom. Each seed denotes a different phantom, and files containing same seed are different ROI patches from the same phantom.
+
+ROI locations named as roi_SP/SA_PhantomSeed.loc (text file).  Further details mentioned in readme.txt under individual breast density folders.
 
