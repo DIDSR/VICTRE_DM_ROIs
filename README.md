@@ -1,3 +1,9 @@
+* This repository has been archived and is no longer maintained.
+* The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.
+* It should not be used in production systems.
+
+**********************************************************************************
+
 # VICTRE Digital Mammography ROIs
 ![](https://user-images.githubusercontent.com/5750606/41682198-0b250648-74a5-11e8-9578-f93602efa5ab.png)\
 ***Virtual Imaging Clinical Trial for Regulatory Evaluation***
